@@ -1,0 +1,7 @@
+.git/
+.vercel/
+attendance/
+/images/tpsproject/
+node_modules/
+.env
+.env.*

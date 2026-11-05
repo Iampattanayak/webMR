@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAMA ROBOTICS</title>
+    <link rel="icon" type="image/icon" href="images/logo.png">
+    
+
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</head>
+<body>
+
+
+    <!-- Header with navigation -->
+    <header>
+        <nav>
+            <div class="logo-with-text">
+                <a href="index.html"><img id="logo" src="images/logo.png" alt="Logo" /></a>
+                <span class="logo-text">MAMA ROBOTICS</span>
+            </div>
+            <button id="hamburger" class="hamburger"><span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span> </button>
+            <div class="links" id="nav-links">
+                <a href="index.html"><strong>Home</strong></a>
+                <a href="about-us.html"><strong>About us</strong></a>
+                <a href="events.html"><strong>Events</strong></a>
+                <a href="product.html"><strong>Product & Services</strong></a>
+                <a href="project.html"><strong>Projects & Achievements</strong></a>
+                <a href="blog&gallery.html"><strong>Blogs & Gallery</strong></a>
+                <a href="contactus.html"><strong>Contact Us</strong></a>
+            </div>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <!-- Popping Robotics Club Text -->
+    <div class="pop-robotics">
+        <div id="particles-js"></div>
+        <p id="hover-text">WELCOME MASTERING ART OF MECHANICS & AUTOMATION ROBOTICS</p>
+        <!--<audio id="hover-audio" src="media/welcome-robotics.wav" preload="auto"></audio> -->
+    </div>
+
+
+
+    <section class="body-section">
+    <section class="container">
+        <marquee behavior="alternate" scrollamount="15" id="marqueeText">
+            <span id="blinkingText" style="font-size: 26px; color: rgb(251, 150, 10); font-weight: bold;">
+                Robotics Education | Hardware Sales | Technical Support
+            </span>
+        </marquee>
+        
+        <div class="text-container">
+            <h1 class="blog-title">
+                Innovate with MAMA Robotics
+            </h1>
+            <h5>Who We Are ?</h5>
+            <p>MAMA Robotics is a pioneering organization offering robotics education, hardware solutions, and expert technical support.
+                 Our mission is to empower students, educators, and professionals with cutting-edge robotics and automation technologies.<br>
+                🔹 Learn robotics with hands-on experience<br>
+                🔹 Access high-quality robotics kits & components<br>
+                🔹 Get expert support for projects & automation needs</p>
+        </div>
+        <div class="text-container">
+            <h1 class="blog-title">
+                Why Choose Us
+            </h1>
+            
+            <p>✔ Industry Experts: Learn from professionals & researchers<br>
+                ✔ Hands-on Learning: Practical, project-based approach<br>
+                ✔ Affordable & High-Quality: Best hardware at competitive prices<br>
+                ✔ Comprehensive Support: From training to implementation & beyond<br>
+                ✔ Innovation-Driven: Custom solutions for education & industry<br>
+                📢 We help students, researchers, educators, and businesses bring their robotics ideas to life!</p>
+            <a href="https://wa.me/+917003048028" class="btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;">
+                Contact Us
+            </a>
+        </div>
+    </section>
+
+
+
+    <section class="container">
+        <div class="text-container">
+            <h1 class="blog-title">
+                🚀 Our Mission
+            </h1>
+            <h5>Empowering Future Innovators Through Education & Technology</h5>
+            <p>MAMA Robotics, we are committed to revolutionizing robotics education and innovation by providing cutting-edge technology solutions ...
+                <span class="more-text" style="display: none;">
+                hands-on learning experiences, and expert technical support. Our mission is to create a top-tier learning platform that delivers quality education, fosters creativity, 
+                and enhances growth through project-based learning. By equipping students, professionals, and businesses with the perfect blend of technical and non-technical skills, we empower them to harness the power of robotics for a smarter, more automated future.
+            </span>
+            <button class="learn-more-btn" onclick="toggleText(this)">Learn More</button>
+            </p>
+        </div>
+        <div class="text-container">
+            <h1 class="blog-title">
+                🌟 Our Vision
+            </h1>
+            <h5> Shaping the Future Through Education & Technology</h5>
+            <p>We envision a world where robotics and automation transform everyday life, making learning and innovation accessible to all...
+                <span class="more-text" style="display: none;"> MAMA Robotics strives to be a global leader in robotics education, hardware solutions, and technical expertise, fostering a future driven by intelligence, ethics, and sustainable technological advancements.
+                 Our goal is to inspire young minds to innovate, think critically, and solve real-world problems while building a culture where students develop focused ideas using Robotics and Artificial Intelligence—equipping them with the tools needed to shape the future.
+                </span>
+                <button class="learn-more-btn" onclick="toggleText(this)">Learn More</button>
+            </p>
+        
+        </div>
+    </section>
+
+
+
+    <section class="container">
+        <h1 id="blog-title"><span class="live-badge">Join Us</span> with MAMA Robotics</h1>
+        <div class="featured-news-row">
+        <p id="blog-subtitle">Join Our Internship Program</p>
+        <button class="apply-btn" onclick="window.location.href='apply-internship.html';">Apply for Internship</button>
+    </div>
+    </section>
+    
+    <section class="career-section">
+        <h2 class="career-title">Join with Us</h2>
+        <h4 class="career-heading" >🚀 We're Hiring: Robotics, AI, Coding & STEM Trainers! </h4>
+        <p class="career-text">
+            Are you passionate about shaping the future of young minds through cutting-edge technology? Join our dynamic team at MAMA Robotics, where innovation meets education!
+    We are looking for enthusiastic and knowledgeable trainers in Robotics, Artificial Intelligence, Coding, and STEM to inspire the next generation of tech leaders.
+     Whether you're an experienced educator or a tech-savvy graduate eager to share your skills, we want to hear from you!
+        </p>
+    
+        <button class="career-btn" onclick="window.location.href='apply-job.html';">Apply for Job</button>
+    </section>
+
+    <!-- 
+        - #PROJECT
+      -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="join-us-container">
+            <div class="join-us-content">
+                <button class="join-us-button"><a href="https://wa.me/+917003048028">Join Us</a></button>
+                <p>MAMA Robotics Today & Step into the Future of Technology 💡</p>
+            </div>
+        </div>
+
+        <div class="footer-top">
+
+            <div class="footer-column">
+                <h4>About Us</h4>
+                <p>MAMA Robotics is a leading robotics education and technology organization focused on practical learning, innovation, and skill development. We bridge the gap between academic knowledge and real-world applications by delivering hands-on robotics education, technical training, and automation solutions.
+Our programs are designed to nurture problem-solving, creativity, and critical thinking, preparing learners for the careers of tomorrow.
+
+               </p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="product.html">Product & Services</a></li>
+                    <li><a href="project.html">Projects & Achievements</a></li>
+                    <li><a href="blog&gallery.html">Blogs & Gallery</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <p>📧 Email: <a href="mailTo:mamarobotics@gmail.com">mamarobotics@gmail.com</a>,
+                    <a href="mailTo:quries@mamarobotics.in">quries@mamarobotics.in</a>
+                </p>
+                <p>📞 Phone: <a href="tel:+91 7003048028">+91 7003048028</a></p>
+                <p>
+                    📍 Address: 158,Mirjapur,Bachamari,Malda, West Bengal - 732142 ,India
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61574296808475" target="_blank" class="social-icon facebook"></a>
+                    <a href="https://www.instagram.com/gkciet/" target="_blank" class="social-icon instagram"></a>
+                    <a href="https://www.youtube.com/@GKCIETMalda" target="_blank" class="social-icon youtube"></a>
+                    <a href="https://www.linkedin.com/company/gkciet/" target="_blank" class="social-icon linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!-- Chatbot Button -->
+    <div id="chatbot-button" class="chatbot-button">
+        <span>How can we help you?</span>
+    </div>
+
+    <!-- Chatbot Window -->
+    <div id="chatbot-window" class="chatbot-window">
+        <div class="chatbot-header">
+            <span>Chat with us!</span>
+            <button id="close-chatbot" class="close-chatbot">X</button>
+        </div>
+        <div class="chatbot-content">
+            <p>Hello! How can I assist you today?</p>
+        </div>
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button id="send-btn" class="send-btn">Send</button>
+    </div>
+
+
+        <div class="footer-bottom">
+            <p>Copyright MAMA Robotics © 2025 | All Rights Reserved</p>
+            <p>Design & Developed by <a href="https://mamarobotics.in/" >MAMA Robotics</a></p>
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="about.js"></script>
+
+</body>
+</html>

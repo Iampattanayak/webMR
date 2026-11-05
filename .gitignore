@@ -1,0 +1,23 @@
+# Attendance app is hosted separately and is not part of this website.
+/attendance/
+/images/tpsproject/
+
+# Vercel local project state.
+.vercel/
+
+# Local dependencies and environment files.
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Operating system and editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Package-manager logs.
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
